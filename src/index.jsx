@@ -16,6 +16,7 @@
         //----------------------------------------------------------------------------------------------------------
         
         import following from './components/following.jsx' 
+,import splash from './components/splash.jsx' 
 
        
         //----------------------------------------------------------------------------------------------------------
@@ -38,6 +39,7 @@
             <Router basename="/" history={ history } >
             <Switch>
                 <Route path="/following" component={following} /> 
+,<Route path="/splash" component={splash} /> 
 
             </Switch>
             </Router>
