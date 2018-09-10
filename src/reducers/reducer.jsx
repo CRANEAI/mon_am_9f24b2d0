@@ -2,13 +2,13 @@
         import { combineReducers }                      from 'redux';
         import { reducer as Form }                      from 'redux-form';
 
-        import following from './reducer_following' 
-,import splash from './reducer_splash' 
+        import signup from './reducer_signup' 
+,import following from './reducer_following' 
 
 
         const rootReducer = combineReducers({
-            following : following 
-,splash : splash 
+            signup : signup 
+,following : following 
 
         })
 
