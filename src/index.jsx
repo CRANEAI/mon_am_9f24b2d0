@@ -15,8 +15,8 @@
             //Parent Components
         //----------------------------------------------------------------------------------------------------------
         
-        import following from './components/following.jsx' 
-,import splash from './components/splash.jsx' 
+        import signup from './components/signup.jsx' 
+,import following from './components/following.jsx' 
 
        
         //----------------------------------------------------------------------------------------------------------
@@ -38,8 +38,8 @@
         
             <Router basename="/" history={ history } >
             <Switch>
-                <Route path="/following" component={following} /> 
-,<Route path="/splash" component={splash} /> 
+                <Route path="/signup" component={signup} /> 
+,<Route path="/following" component={following} /> 
 
             </Switch>
             </Router>
